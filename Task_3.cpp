@@ -94,7 +94,7 @@ public:
     }
 };
 
-class Memory {
+class Memory { 
     string arr[256] = {"0"};
 
 public:

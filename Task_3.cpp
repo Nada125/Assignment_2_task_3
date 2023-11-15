@@ -50,7 +50,7 @@ int HtD(string hexVal) {
     // Extracting characters as digits from last
     // character
     for (int i = len - 1; i >= 0; i--) {
-        // if character lies in '0'-'9', converting
+        // if the character lies in '0'-'9', converting
         // it to integral 0-9 by subtracting 48 from
         // ASCII value
         if (hexVal[i] >= '0' && hexVal[i] <= '9') {
